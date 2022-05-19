@@ -15,5 +15,7 @@ while True:
         print(msg)
     else:
         print("The sum is " + str(total))
+
+print("Hello Git!")
     
 
