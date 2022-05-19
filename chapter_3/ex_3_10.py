@@ -1,0 +1,26 @@
+numbers = ['one', 'two', 'three', 'four', 'five']
+print(numbers)
+print('The first number is ' + numbers[0])
+message = 'The last number is ' + numbers[-1]
+print(message)
+numbers[0] = 'zero'
+print(numbers)
+numbers.insert(1, 'one')
+numbers.append('six')
+print('\n' + str(numbers))
+temp = numbers.pop()
+print(str(numbers) + '\nMissing number is ' + temp)
+del numbers[0]
+print(numbers)
+numbers.remove('one')
+print(numbers)
+print('\nSorted numbers: ' + str(sorted(numbers)))
+print('Reverse sorted numbers: ' + str(sorted(numbers, reverse=True)))
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers.sort()	
+print('Permanent' + str(numbers))
+numbers.sort(reverse=True)	
+print('Permanent reverse' + str(numbers))
+print('Length is ' + str(len(numbers)))

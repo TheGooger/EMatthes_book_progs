@@ -1,0 +1,4 @@
+In Python you can add more varuables
+In Python you can use classes
+In Python you can read files
+In Python you can create modules
